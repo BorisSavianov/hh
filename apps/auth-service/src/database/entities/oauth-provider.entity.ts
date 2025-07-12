@@ -7,7 +7,7 @@ import {
   ManyToOne,
   JoinColumn,
 } from 'typeorm';
-import { User } from './user.entity';
+import { User } from './user.enitity';
 
 @Entity('oauth_providers')
 export class OAuthProvider {

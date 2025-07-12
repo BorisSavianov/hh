@@ -7,7 +7,7 @@ import {
   OneToOne,
   JoinColumn,
 } from 'typeorm';
-import { User } from './user.entity';
+import { User } from './user.enitity';
 
 @Entity('counselor_profiles')
 export class CounselorProfile {
